@@ -1,0 +1,21 @@
+/*Write a program to model a simple calculator. Each data line should consist of the next operation
+ to be performed from the list below and the right operand. Assume the left operand is the accu
+mulator value (initial value of 0). You need a function scan data with two output parameters that
+ returns the operator and right operand scanned from a data line. You need a function do next op
+ that performs the required operation. do next op has two input parameters (the operator and
+ operand) and one input/output parameter (the accumulator). The valid operators are:
+ + add
+ − subtract
+ ∗ multiply
+ / divide
+ ^ power (raise left operand to power of right operand)
+ q quit
+ Your calculator should display the accumulator value after each operation. A sample run follows.
+ + 5.0
+ result so far is 5.0
+ ^ 2
+ result so far is 25.0
+ / 2.0
+ result so far is 12.5
+ q 0
+ final result is 12.58*/
